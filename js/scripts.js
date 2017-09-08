@@ -12,3 +12,9 @@ $(document).ready(function() {
 		}
 	});
 });
+
+$(document).removeClassdy(function() {
+	$('#homeReserve').click(function() {
+		$('#reserveTable').modal('show');
+	});
+});

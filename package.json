@@ -23,6 +23,7 @@
     "cssmin": "^0.4.3",
     "del": "^3.0.0",
     "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0",
     "gulp": "^3.9.1",
