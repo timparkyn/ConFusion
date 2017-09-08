@@ -13,8 +13,50 @@ $(document).ready(function() {
 	});
 });
 
-$(document).removeClassdy(function() {
+$(document).ready(function() {
 	$('#homeReserve').click(function() {
 		$('#reserveTable').modal('show');
+	});
+});
+
+$(document).ready(function() {
+	$('#reserveCancelX').click(function() {
+		$('#reserveTable').modal('hide');
+	});
+});
+
+$(document).ready(function() {
+	$('#reserveCancelBtn').click(function() {
+		$('#reserveTable').modal('hide');
+	});
+});
+
+$(document).ready(function() {
+	$('#reserveBtn').click(function() {
+		$('#reserveTable').modal('hide');
+	});
+});
+
+$(document).ready(function() {
+	$('#login').click(function() {
+		$('#loginModal').modal('show');
+	});
+});
+
+$(document).ready(function() {
+	$('#loginCancelX').click(function() {
+		$('#loginModal').modal('hide');
+	});
+});
+
+$(document).ready(function() {
+	$('#loginCancelBtn').click(function() {
+		$('#loginModal').modal('hide');
+	});
+});
+
+$(document).ready(function() {
+	$('#loginBtn').click(function() {
+		$('#loginModal').modal('hide');
 	});
 });
