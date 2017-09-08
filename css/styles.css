@@ -55,3 +55,21 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+.modal-header {
+  background: #512da8;
+  color: floralwhite; }
+  .modal-header .modal-header-item {
+    color: floralwhite; }
+
+.modal-body {
+  background: #9575cd; }
+
+.modal-footer {
+  background: #d1c4e9; }
+
+#reserveX {
+  color: floralwhite; }
+
+#loginX {
+  color: floralwhite; }
